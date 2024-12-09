@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Free-water/static/css/main.0f60caeb.css",
+    "main.js": "/Free-water/static/js/main.6930af10.js",
+    "static/js/453.01a440c2.chunk.js": "/Free-water/static/js/453.01a440c2.chunk.js",
+    "static/media/homeBaMain1.jpeg": "/Free-water/static/media/homeBaMain1.240485deef1360f220d5.jpeg",
+    "static/media/homeBan1.jpeg": "/Free-water/static/media/homeBan1.afba6b737daec1d8f093.jpeg",
+    "static/media/b2Post8.png": "/Free-water/static/media/b2Post8.8cbd599f0af2c9b7644b.png",
+    "static/media/b2Post6.png": "/Free-water/static/media/b2Post6.ad4a885412d03c8faefc.png",
+    "static/media/slick.svg": "/Free-water/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Free-water/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Free-water/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Free-water/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Free-water/index.html",
+    "main.0f60caeb.css.map": "/Free-water/static/css/main.0f60caeb.css.map",
+    "main.6930af10.js.map": "/Free-water/static/js/main.6930af10.js.map",
+    "453.01a440c2.chunk.js.map": "/Free-water/static/js/453.01a440c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f60caeb.css",
+    "static/js/main.6930af10.js"
+  ]
+}
