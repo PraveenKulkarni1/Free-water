@@ -1,0 +1,271 @@
+.advertiseRTwo h1 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36.31px;
+  color: rgba(26, 109, 242, 0.909);
+}
+@keyframes colorChange {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.modelTitle {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 41.19px;
+  font-weight: 501;
+  color: #000000;
+  background-size: 200% 200%;
+  text-align: center;
+}
+
+.modelHeader {
+  background: var(--waterBg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advQuota img {
+  width: 100%;
+  height: 450px;
+}
+.advertise2Img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advertise2Img img {
+  width: 30% !important;
+  height: 450px;
+}
+.advFour h2 {
+  font-size: 30px;
+  font-weight: 501;
+  color: var(--waterBg);
+}
+
+.advQuota button {
+  width: auto;
+  height: auto;
+  background: #000000;
+  color: #ffffff;
+}
+.advertiseFive {
+  position: relative;
+  width: 100%;
+  min-height: 900px;
+}
+
+.advertiseFive::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0%;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.4;
+  background-image: url("../public/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.advFiveForm {
+  background: rgb(255, 193, 7);
+  position: relative;
+  z-index: 1;
+}
+.advFiveForm h2 {
+  font-size: 35px !important;
+  font-weight: 501;
+  color: #f22b50;
+}
+.productListBg p {
+  font-weight: 501;
+  color: #000000;
+}
+.modelBody input,
+textarea {
+  background: #ffffff !important;
+}
+.advFiveForm button {
+  font-size: 17px;
+  width: 30%;
+}
+.sectionThreeCanvas {
+  position: relative;
+  background-color: var(--waterBg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 500px;
+}
+.sectionThreeCanvas h1,
+h6 {
+  font-size: Inner;
+  font-size: 23px;
+  line-height: 40px;
+  font-weight: 500;
+
+  color: #000000 !important;
+}
+.sectionThreeCanvas p {
+  font-size: Inner;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+
+  color: #000000 !important;
+}
+/*  */
+
+.getModel button {
+  font-size: 30px !important;
+  font-weight: 501;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+  width: auto;
+  background: var(--waterBg);
+  /* animation: colorChange 3s infinite; */
+}
+.modelBody input,
+#message {
+  border: 1px solid black !important;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #4aa9fd;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: black;
+  }
+  100% {
+    color: #4aa9fd;
+  }
+}
+
+@media (max-width: 768px) {
+  .advFiveForm h2 {
+    font-size: 30px !important;
+  }
+  .productListBg img {
+    width: 60%;
+    height: 250px;
+  }
+  .advBottel {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .advQuota img {
+    width: 100%;
+    height: 300px;
+  }
+  .advertise2Img img {
+    width: 50% !important;
+    height: 400px;
+  }
+  .advQuota p {
+    font-size: 25px;
+  }
+
+  .sectionThreeCanvas h1,
+  h6 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .sectionThreeCanvas p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .getModel button {
+    font-size: 20px !important;
+    padding: 7px;
+  }
+  .modelHeader {
+    height: 86px;
+  }
+  .modelTitle {
+    font-size: 33.19px;
+  }
+  .advertiseRTwo h1 {
+    font-size: 32px;
+  }
+  .advPut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .advh1 {
+    font-size: 25px !important;
+    width: 70% !important;
+  }
+  .advParaOne {
+    font-size: 15px !important;
+    width: 70% !important;
+  }
+  .advFour h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 486px) {
+  .modelBody {
+    height: 50% !important;
+  }
+  .productListBg img {
+    height: 160px;
+  }
+  .advertise2Img img {
+    height: 250px;
+  }
+  .advQuota img {
+    height: 200px;
+  }
+  .advertiseRTwo h1 {
+    font-size: 26px;
+  }
+  .sectionThreeCanvas h1,
+  h6 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .sectionThreeCanvas p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .getModel button {
+    font-size: 14px !important;
+    padding: 5px;
+  }
+  .modelHeader {
+    height: 76px;
+  }
+  .modelTitle {
+    font-size: 27.19px;
+  }
+  .advh1 {
+    font-size: 20px !important;
+    width: 100% !important;
+  }
+  .advParaOne {
+    font-size: 12px !important;
+    width: 100% !important;
+  }
+  .advFour h2 {
+    font-size: 20px;
+  }
+}

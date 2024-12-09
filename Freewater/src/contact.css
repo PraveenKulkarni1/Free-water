@@ -1,0 +1,88 @@
+@keyframes colorChange {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.contactMain {
+  /* background-color: #fffcd8; */
+}
+.contactHead h1 {
+  font-family: "Inner", sans-serif;
+  font-size: 41.19px;
+  font-weight: 600;
+  color: black;
+}
+
+.contactHeadTwo h2 {
+  color: #ffffff;
+  font-weight: 501;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: var(--waterBg);
+}
+.contactForm {
+  border: 5px solid var(--waterBg) !important;
+}
+.contactForm input,
+textarea {
+  border: 1px solid var(--waterBg) !important;
+}
+
+/* .contactBtn button {
+  font-size: 25px;
+  width: 30%;
+  color: black;
+  font-weight: 500;
+  background: var(--waterBg);
+} */
+
+.contactImg img {
+  width: 44vw !important;
+  height: 600px;
+}
+
+@media (max-width: 991px) {
+  .contactRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .contactImg img {
+    width: 62vw !important;
+    height: 400px;
+  }
+  .contactBtn button {
+    font-size: 20px;
+  }
+  .contactHead h1 {
+    font-size: 30px;
+  }
+  .contactHeadTwo h2 {
+    font-size: 23px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 486px) {
+  .contactImg img {
+    width: 52vw !important;
+    height: 272px;
+  }
+
+  .contactBtn button {
+    font-size: 10px;
+  }
+  .contactHead h1 {
+    font-size: 25px;
+  }
+  .contactHeadTwo h2 {
+    font-size: 20px;
+    padding: 10px;
+  }
+}

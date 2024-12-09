@@ -1,0 +1,133 @@
+.secSevenBg {
+  width: 100%;
+  background: #f3f5f6;
+  min-height: 600px;
+}
+
+.sevelCol {
+  background: #ffffff;
+  min-height: 506px;
+  border-radius: 50px;
+}
+.sevenSLNo {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.6px;
+  letter-spacing: 0.25px;
+  color: #3c3c4380;
+}
+.sevenContent {
+  font-family: Familjen Grotesk;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35.4px;
+  color: #201f1f;
+}
+
+.colOption {
+  padding-left: 90px;
+  font-family: Familjen Grotesk;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.homeFaqPlus {
+  background: #f3f5f6 !important;
+  color: #201f1f;
+}
+.homeFaqMinus {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(90deg, #00d1ff 0%, #1a83ff 100%);
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 10px;
+}
+.homeFaqPlus {
+  width: 40px;
+  height: 40px;
+  background: #f3f5f6;
+  border-radius: 20px;
+  color: #000000;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .secSevenBg {
+    min-height: 500px;
+  }
+  .sevenSLNo {
+    font-size: 35px;
+    line-height: 40.6px;
+  }
+  .sevenContent {
+    font-size: 22px;
+    line-height: 30.4px;
+  }
+  .sevelCol {
+    min-height: 394px;
+  }
+  .colOption {
+    padding-left: 90px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .homeFaqMinus {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .homeFaqPlus {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 486px) {
+  .secSevenBg {
+    min-height: 300px;
+  }
+  .sevelMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sevelCol {
+    min-height: 271px;
+    width: 95%;
+  }
+  .colOption {
+    padding-left: 20px;
+    font-family: Familjen Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .sevenSLNo {
+    font-size: 23px;
+    line-height: 27.6px;
+    padding: 0px;
+  }
+  .sevenContent {
+    font-size: 18px;
+    line-height: 22.4px;
+  }
+  .homeFaqPlus {
+    width: 35px;
+    height: 35px;
+
+    padding: 11px;
+  }
+  .colOption {
+    padding-left: 45px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

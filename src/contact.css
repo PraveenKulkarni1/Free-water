@@ -1,0 +1,151 @@
+#exampleFormConatct {
+  background: lightgray;
+}
+.contactBtn {
+  width: auto;
+  height: 52px;
+  padding: 16px 60px;
+  gap: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #1db5be;
+  font-family: Mont;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20.45px;
+  text-align: center;
+  color: #ffffff;
+}
+.contactImg {
+  width: 38vw;
+  height: 500px;
+  margin-top: -130px;
+}
+
+.conBorder1 {
+  width: 60%;
+  height: 200px; /* Auto height to fit the text dynamically */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  color: #303a42;
+  background-color: #ffffff;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 28%,
+    54% 27%,
+    56% 38%,
+    41% 27%,
+    0 27%
+  );
+  background: rgb(223, 223, 223);
+
+  padding: 15px 20px;
+  text-align: center;
+  /* box-shadow: 168px 0px #352f2f26 !important; */
+  box-shadow: 168px 0px 10px 0px rgba(53, 47, 47, 0.15);
+  margin-top: 80px;
+  margin-left: -80px;
+}
+
+.conBorder2 {
+  height: 200px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 27%,
+    54% 27%,
+    36% 36%,
+    41% 27%,
+    0 27%
+  );
+  width: auto;
+  height: auto; /* Auto height to fit the text dynamically */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  color: #303a42;
+  background: rgb(223, 223, 223);
+  margin-top: 80px;
+  padding: 15px 40px;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .conBorder1 {
+    margin-left: -50px;
+    width: 40vw;
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .conBorder2 {
+    width: 30vw;
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactBtn {
+    height: 42px;
+    padding: 12px 30px;
+    font-size: 18px;
+    line-height: 18.45px;
+  }
+  .contactImg {
+    width: 48vw;
+    height: 300px;
+    margin-top: -130px;
+  }
+  .conColTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .conBorder1 {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 30vw;
+    font-size: 13px;
+    padding: 7px 10px;
+  }
+  .conBorder2 {
+    width: 20vw;
+    font-size: 13px;
+    padding: 7px 8px;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 486px) {
+  .contactBtn {
+    height: 35px;
+    padding: 8px 20px;
+    font-size: 14px;
+    line-height: 15.45px;
+  }
+  .contactImg {
+    width: 58vw;
+    height: 200px;
+    margin-top: -130px;
+  }
+  .conColTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .conBorder1 {
+    width: 43vw;
+    font-size: 12px;
+    padding: 7px 7px;
+  }
+  .conBorder2 {
+    width: 35vw;
+    font-size: 12px;
+    padding: 7px 8px;
+  }
+}

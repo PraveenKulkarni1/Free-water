@@ -1,0 +1,267 @@
+.RevolutionBg {
+  /* position: relative; */
+  width: 100%;
+  min-height: 526px;
+  background: var(--waterBg);
+}
+
+.revHead {
+  font-family: K2D;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.025em;
+  z-index: 1;
+  color: #000000;
+}
+.revPara {
+  font-family: K2D;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000000;
+  width: 80%;
+  text-align: justify;
+}
+
+.appLogoBg {
+  width: 30%;
+  height: auto;
+  background: #000000;
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+.revImgPara {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #000000;
+}
+.apLogo {
+  width: 70px;
+  height: 61px;
+  padding: 7px;
+}
+.getP {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.getH {
+  font-family: K2D;
+  font-size: 19px;
+  font-weight: 700;
+
+  letter-spacing: -0.025em;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.revMobImages {
+  position: relative;
+}
+.revImgMobOne {
+  position: absolute;
+  width: 12vw;
+  height: 462px;
+}
+.revImgMobTwo {
+  position: absolute;
+  width: 10vw;
+  height: 462px;
+  bottom: -7px;
+  left: 300px;
+}
+.revImgMobThree {
+  position: absolute;
+  width: 14vw;
+  height: 362px;
+  top: 0px;
+  left: 500px;
+}
+
+@media (max-width: 1441px) {
+  .revImgMobOne {
+    width: 12vw;
+    height: 462px;
+    left: -20px;
+  }
+  .revImgMobTwo {
+    bottom: 0px;
+    width: 10vw;
+    height: 462px;
+    left: 220px;
+    bottom: -7px;
+  }
+
+  .revImgMobThree {
+    width: 12vw;
+    height: 462px;
+    left: 400px;
+  }
+}
+@media (max-width: 1292px) {
+  .revImgMobTwo {
+    bottom: 0px;
+  }
+  .appLogoBg {
+    width: 40%;
+  }
+}
+@media (max-width: 1024px) {
+  .revImgMobOne {
+    height: 400px;
+    left: -20px;
+  }
+  .revImgMobTwo {
+    bottom: 0px;
+    height: 400px;
+    left: 150px;
+  }
+  .appLogoBg {
+    width: 45%;
+  }
+  .revImgMobThree {
+    width: 12vw;
+    height: 342px;
+    left: 350px;
+  }
+  .revHead {
+    font-size: 40px;
+
+    line-height: 53px;
+  }
+  .apLogo {
+    width: 68px;
+    height: 59px;
+    padding: 19px;
+  }
+  .applogoMain {
+    flex-direction: column; /* Stack the items vertically */
+  }
+}
+
+@media (max-width: 875px) {
+  .revImgMobThree {
+    width: 12vw;
+    height: 342px;
+    left: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .revHead,
+  .revPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .appLogoBg {
+    width: 40% !important;
+  }
+  .revHead {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .revPara {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+  }
+  .revImgPara {
+    font-size: 15px;
+
+    line-height: 22px;
+  }
+
+  /* .revColOne {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+  } */
+  .appLogoBg {
+    width: 30% !important;
+    height: auto;
+  }
+
+  /* .applogoMain {
+    display: flex;
+
+    flex-direction: column;
+  } */
+  .applogoMain {
+    flex-direction: row; /* Align the items side-by-side */
+  }
+
+  .appLogoBg {
+    flex: 1; /* Distribute the space evenly */
+  }
+
+  .appLogoBg img {
+    max-width: 100%; /* Ensure logos scale properly */
+  }
+  .apLogo {
+    width: auto;
+    height: 50px;
+    padding: 10px;
+  }
+  .getP {
+    font-size: 10px;
+  }
+  .getH {
+    font-size: 17px;
+  }
+  .revImgOne {
+    width: 16vw;
+    height: 300px;
+  }
+  .revImgTwo {
+    width: 14vw;
+    height: 300px;
+  }
+  .revImgThree {
+    width: 34vw;
+    height: 300px;
+  }
+}
+
+@media (max-width: 486px) {
+  .revHead {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .revPara {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .revImgPara {
+    font-size: 12px;
+
+    line-height: 20px;
+  }
+  .getP {
+    font-size: 9px;
+  }
+  .getH {
+    font-size: 15px;
+  }
+  .revImgOne {
+    width: 20vw;
+    height: 200px;
+  }
+  .revImgTwo {
+    width: 15vw;
+    height: 200px;
+  }
+  .revImgThree {
+    width: 33vw;
+    height: 200px;
+  }
+  .appLogoBg {
+    width: 50% !important;
+  }
+}

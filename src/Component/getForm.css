@@ -1,0 +1,123 @@
+.getFormBg {
+  width: 100%;
+  min-height: 736px;
+  background: linear-gradient(90deg, rgba(32, 31, 31, 0.8) 0%, #201f1f 100%);
+
+  border-radius: 18.7px;
+}
+.getImgOne {
+  width: 41vw;
+  height: 690.09px;
+}
+.getHead {
+  margin-top: 50px;
+  font-family: K2D;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.getPara {
+  font-family: K2D;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  width: 50%;
+}
+.getForm input,
+#exampleFormControlTextarea1 {
+  background: linear-gradient(
+    90deg,
+    rgba(32, 31, 31, 0.8) 0%,
+    #201f1f 100%
+  ) !important;
+  border: 0.86px solid #8d8d8d !important;
+}
+.getBtn {
+  width: auto;
+  height: 52px;
+  padding: 16px 50px;
+  gap: 10px;
+  border-radius: 30px;
+  border: none;
+  background: #1db5be;
+  font-family: Mont;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 20.45px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .getFormBg {
+    min-height: 400px;
+  }
+  .bigBootle,
+  .getBtnMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .getImgOne {
+    width: 55vw;
+    height: 300px;
+  }
+  .getHead {
+    margin-top: 18px;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .getPara {
+    font-size: 12px;
+    line-height: 19px;
+    width: 70%;
+  }
+  .getBtn {
+    height: 42px;
+    padding: 12px 40px;
+    gap: 7px;
+    background: #1db5be;
+    font-size: 17px;
+    line-height: 18.45px;
+  }
+}
+@media (max-width: 599px) {
+  .getFormBg {
+    width: 83%;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 486px) {
+  .getFormBg {
+    width: 83%;
+    min-height: 400px;
+  }
+  .getImgOne {
+    width: 72vw;
+    height: 250px;
+  }
+  .getHead {
+    margin-top: 0px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .getPara {
+    font-size: 12px;
+    line-height: 19px;
+    width: 70%;
+  }
+  .getBtn {
+    height: 32px;
+    padding: 6px 20px;
+    gap: 5px;
+    font-size: 15px;
+    line-height: 15.45px;
+  }
+}

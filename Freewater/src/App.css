@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  box-shadow: none;
+  background-color: white;
+}
+
+nav ul li a {
+  font-size: 14px !important;
+}
+
+nav ul li a:hover {
+  color: #6dc8ed !important;
+  transition: 0.5s;
+}
+
+form input,
+textarea {
+  background: #ede9e993 !important;
+}
+
+/*  */
+
+.Poligon1Advertise {
+  clip-path: polygon(
+    10% 0%,
+    90% 0%,
+    100% 10%,
+    100% 90%,
+    100% 100%,
+    10% 100%,
+    0% 100%,
+    0% 10%
+  );
+}
+
+.billboard01 h1 {
+  font-size: 115px;
+}
+
+@media (max-width: 700px) {
+  .billboard01 h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 486px) {
+}

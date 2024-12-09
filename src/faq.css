@@ -1,0 +1,57 @@
+.toggle-icon {
+  transition: color 0.3s;
+}
+
+.homeFaqPlus,
+.homeFaqMinus {
+  cursor: pointer;
+}
+
+.collapse {
+  transition: max-height 0.3s ease;
+}
+
+.faqSecMainh1 {
+  font-family: DM Sans;
+  font-size: 18.69px;
+  font-weight: 700;
+  line-height: 23.78px;
+}
+
+.faqSecMainh3 {
+  font-family: DM Sans;
+  font-size: 15.29px;
+  font-weight: 400;
+  line-height: 25.48px;
+  color: #303a42;
+}
+.homeFaqMinu {
+  font-size: 15px;
+}
+.homeFaqPlu {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .faqSecMainh1 {
+    font-size: 15.69px;
+    line-height: 20.78px;
+  }
+
+  .faqSecMainh3 {
+    font-size: 13.29px;
+    line-height: 19.48px;
+  }
+}
+
+@media (max-width: 486px) {
+  .faqSecMainh1 {
+    font-size: 13.69px;
+    line-height: 23.78px;
+  }
+
+  .faqSecMainh3 {
+    font-size: 11.29px;
+    line-height: 15.48px;
+  }
+}

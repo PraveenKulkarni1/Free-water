@@ -1,0 +1,51 @@
+.termsMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.termPara {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: justify;
+  color: #00000099;
+  margin: 15px;
+}
+.termHead {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 501;
+  line-height: 21.78px;
+  text-align: justify;
+  color: #000000;
+  margin: 15px;
+}
+
+@media (max-width: 768px) {
+  .termPara {
+    /* width: 90%; */
+    font-size: 15px;
+    line-height: 22.78px;
+
+    margin: 7px;
+  }
+  .termHead {
+    font-size: 20px;
+    line-height: 21.78px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 486px) {
+  .termPara {
+    font-size: 13px;
+    line-height: 17.78px;
+    margin: 12px;
+  }
+  .termHead {
+    font-size: 17px;
+    line-height: 20.78px;
+  }
+}

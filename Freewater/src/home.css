@@ -1,0 +1,327 @@
+.sectionOne {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; */
+  text-align: center;
+}
+
+.sectionOne img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 60%;
+  height: 500px;
+}
+
+.sectionOneRow {
+  position: relative;
+  top: -83px;
+  z-index: 1;
+}
+
+.sectionOneRow p {
+  font-style: Inner;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 501;
+  color: black;
+}
+
+.sectionOneLink {
+  display: inline-block;
+  padding: 10px;
+  font-style: Lato;
+  font-size: 20px;
+  font-weight: 501;
+  color: black;
+  animation: bgColorChange 1.5s infinite; /* Apply background color animation */
+  background: var(--waterBg);
+}
+
+.sectionOneLink:hover {
+  background: var(--waterBg);
+  color: black;
+}
+
+.staticImg {
+  margin-top: -130px;
+  background: var(--waterBg);
+}
+.staticImg p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.staticImg img {
+  position: relative;
+  animation: myStatics 1s ease-in-out 5s infinite alternate;
+}
+@keyframes myStatics {
+  0% {
+    top: 17px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.sectionThreeBg {
+  position: relative;
+  /* min-height: 600px; */
+  width: 100%;
+}
+
+/* .sectionThreeBg:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(./../public/water3.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  opacity: 0.5;
+  z-index: -1;
+} */
+.sectionThree img {
+  width: 70%;
+  height: 395px;
+}
+.sectionFour p,
+.sectionThree p {
+  font-size: 22px;
+  line-height: 31px;
+  text-align: justify;
+}
+
+.sectionFour {
+  position: relative;
+  background-color: var(--waterBg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 500px;
+}
+
+.sectionFourColOne h1 {
+  font-size: Inner;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 500;
+  color: black;
+}
+.sectionFourColOne p {
+  font-family: lato;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: black;
+}
+.sectionFourColTwo img {
+  width: 80%;
+  height: 350px;
+}
+.custom-hover {
+  background-color: white;
+  color: black;
+}
+
+.sectionSixForm {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 4, 4, 0.5) 28%,
+    rgba(136, 2, 2, 0.5) 100%
+  );
+}
+
+.homeForm input {
+  background: #ffffff !important;
+}
+.homeFormButton > button {
+  font-size: 17px;
+  width: 30%;
+}
+.homeFormButton > button:hover {
+  background: var(--waterBg);
+  color: black;
+  font-weight: 501;
+  font-size: 18px;
+}
+.modal-dialog {
+  border: 3px solid var(--waterBg);
+  border-radius: 10px;
+}
+.getHomeModel > button {
+  font-size: 30px !important;
+  font-weight: 501;
+  color: black;
+  background-color: var(--waterBg);
+}
+
+/* @keyframes colorHChange {
+  0% {
+    color: black;
+  }
+
+  50% {
+    color: rgb(255, 217, 3);
+  }
+  100% {
+    color: black;
+  }
+} */
+
+.homeModelBg {
+  background: var(--waterBg);
+}
+
+@media (max-width: 768px) {
+  .sectionOneRow {
+    top: -150px;
+  }
+  .sectionOne img {
+    height: 320px;
+  }
+  .staticImg {
+    margin-top: -100px;
+  }
+  .staticPara p {
+    width: 50%;
+  }
+  .staticPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionOneRow p {
+    font-size: 30px;
+  }
+  .sectionOneRow {
+    top: -47px;
+  }
+
+  .sectionOneLink {
+    padding: 7px !important;
+    font-size: 15px;
+  }
+  .sectionThree img {
+    width: 60%;
+    height: 300px;
+  }
+  .sectionFour p,
+  .sectionThree p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .sectionFour {
+    min-height: 350px;
+  }
+  .sectionFourColOne h1 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .sectionFourColOne p {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px;
+  }
+  .sectionFourColTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionFourColTwo img {
+    width: 80%;
+    height: 300px;
+  }
+  .sectionSixForm {
+    min-height: 300px;
+  }
+  .sectionSixForm h2 {
+    font-size: 25px;
+  }
+  .homeFormButton > button {
+    font-size: 15px;
+    width: 35%;
+  }
+  .homeFormButton > button:hover {
+    font-size: 15px;
+  }
+  .getHomeModel button {
+    font-size: 20px !important;
+  }
+  .homeModelBg {
+    height: 71px !important;
+  }
+  .homeModelBg > h5 {
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width: 486px) {
+  .sectionOne img {
+    height: 175px;
+  }
+  .sectionOneRow {
+    top: -100px;
+  }
+
+  .staticImg {
+    margin-top: -80px;
+  }
+  .staticImg img {
+    width: 100px;
+    height: 80px;
+  }
+  .sectionOneRow {
+    top: -35px;
+  }
+  .sectionOneRow p {
+    font-size: 18px;
+  }
+  .staticPara p {
+    width: 65%;
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+  h5 {
+    font-size: 21px !important;
+  }
+  .sectionOneLink {
+    padding: 5px !important;
+    font-size: 10px;
+  }
+  .sectionFourColOne h1 {
+    font-size: 27px;
+    line-height: 28px;
+  }
+  .sectionFour p,
+  .sectionThree p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .sectionThree img {
+    height: 232px;
+  }
+  .sectionSixForm {
+    min-height: 200px;
+  }
+  .sectionFourColTwo img {
+    width: 74%;
+    height: 218px;
+  }
+  .sectionSixForm h2 {
+    font-size: 22px;
+  }
+  .getHomeModel button {
+    font-size: 16px !important;
+  }
+  .homeModelBg {
+    height: 60px !important;
+  }
+  .homeModelBg > h5 {
+    font-size: 18px !important;
+  }
+}

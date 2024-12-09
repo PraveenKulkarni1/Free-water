@@ -1,0 +1,88 @@
+.desHeading {
+  color: black;
+  background: var(--waterBg);
+  font-weight: 501;
+  width: 100%;
+  height: 100px;
+}
+.distributeForm h1 {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.desForm input {
+  background: #ffffff !important;
+}
+.desBtn button {
+  font-size: 25px;
+  width: 30%;
+  color: black;
+  font-weight: 500;
+  background: var(--waterBg);
+}
+.Distributediv1 {
+  background: url("https://static.wixstatic.com/media/bfcb9b_e29d4e3d0a884e2db0d947d3dfbf6f62~mv2.jpg/v1/fill/w_980,h_678,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bfcb9b_e29d4e3d0a884e2db0d947d3dfbf6f62~mv2.jpg");
+  min-height: 600px !important;
+  width: 100%;
+  background-size: 100%;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+}
+.distributeForm {
+  border: 2px solid hsl(0, 81%, 19%) !important;
+}
+/* .distributeBg {
+  background: rgb(207, 250, 199);
+} */
+
+.distributeForm {
+  border: 2px solid var(--waterBg);
+}
+.distributeForm input,
+#exampleFormControlTextarea1 {
+  border: 1px solid rgb(127, 206, 255) !important;
+}
+.distributeBg {
+  border: 3px solid var(--waterBg);
+  border-radius: 10px;
+}
+@media (max-width: 786px) {
+  .desBtn button {
+    font-size: 22px;
+    width: auto;
+  }
+  .disMargin {
+    font-size: 30px;
+  }
+  .disMarginPara {
+    font-size: 20px !important;
+  }
+  .desHeading {
+    height: 63px;
+    font-size: 25px;
+  }
+  .Distributediv1 {
+    min-height: 400px !important;
+  }
+}
+
+@media (max-width: 486px) {
+  .desBtn button {
+    font-size: 18px;
+    width: auto;
+  }
+  .disMargin {
+    font-size: 20px;
+  }
+  .disMarginPara {
+    font-size: 12px !important;
+  }
+  .desHeading {
+    height: 50px;
+    font-size: 20px;
+  }
+  .Distributediv1 {
+    min-height: 195px !important;
+  }
+}

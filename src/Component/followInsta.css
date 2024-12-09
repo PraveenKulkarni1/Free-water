@@ -1,0 +1,155 @@
+.followHead {
+  font-family: K2D;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 59.8px;
+  text-align: center;
+  color: #484848;
+}
+.followPara {
+  width: 32%;
+  font-family: K2D;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #8a8a8a;
+}
+.inst1 {
+  width: 14.5vw;
+  height: 308px;
+}
+.inst2 {
+  width: 12.5vw;
+  height: 380px;
+}
+.inst3 {
+  width: 12.7vw;
+  height: 380px;
+}
+
+@media (max-width: 1441px) {
+  .inst1 {
+    width: 14.5vw;
+  }
+  .inst2 {
+    width: 12.5vw;
+  }
+  .inst3 {
+    width: 13vw;
+  }
+}
+
+@media (max-width: 1339px) {
+  .inst1 {
+    width: 14vw;
+  }
+  .inst2 {
+    width: 11.5vw;
+  }
+  .inst3 {
+    width: 12.2vw;
+  }
+}
+
+@media (max-width: 1306px) {
+  .inst1 {
+    width: 15vw;
+  }
+  .inst2 {
+    width: 12vw;
+  }
+  .inst3 {
+    width: 12.2vw;
+  }
+}
+
+@media (max-width: 922px) {
+  .inst1 {
+    width: 14.2vw;
+  }
+  .inst2 {
+    width: 12.5vw;
+  }
+  .inst3 {
+    width: 14vw;
+  }
+}
+@media (max-width: 802px) {
+  .inst1 {
+    width: 14vw;
+  }
+  .inst2 {
+    width: 12.3vw;
+  }
+  .inst3 {
+    width: 13.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .followHead {
+    font-size: 40px;
+    line-height: 49.8px;
+  }
+  .followPara {
+    width: 80%;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .inst1 {
+    width: 14.5vw;
+    height: 180px;
+  }
+  .inst2 {
+    width: 12.3vw;
+    height: 200px;
+  }
+  .inst3 {
+    width: 13vw;
+    height: 200px;
+  }
+}
+
+@media (max-width: 545px) {
+  .inst2 {
+    width: 12vw;
+  }
+  .inst3 {
+    width: 12vw;
+  }
+}
+@media (max-width: 486px) {
+  .followHead {
+    font-size: 21px;
+    line-height: 22.8px;
+  }
+  .followPara {
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .inst1 {
+    width: 14.2vw;
+    height: 100px;
+  }
+  .inst2 {
+    width: 12.3vw;
+    height: 140px;
+  }
+  .inst3 {
+    width: 12vw;
+    height: 140px;
+  }
+}
+@media (max-width: 365px) {
+  .inst1 {
+    width: 14vw;
+  }
+  .inst2 {
+    width: 12vw;
+  }
+  .inst3 {
+    width: 12vw;
+  }
+}

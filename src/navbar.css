@@ -1,0 +1,91 @@
+.navConatiner {
+  background-color: #ffffff;
+  min-height: 65px !important;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0px 50px;
+  border: none;
+
+  border-radius: 15px;
+}
+.navbar-collapse {
+  display: none; /* Default hidden */
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-collapse.show {
+  display: block; /* Show menu when the show class is added */
+}
+
+.navMain a {
+  font-family: Familjen Grotesk;
+  font-size: 20px !important;
+  font-weight: 400;
+  line-height: 25px;
+}
+.navbar-toggler {
+  z-index: 10;
+}
+.navImg {
+  width: 100px;
+  height: 70px;
+  padding-top: 8px;
+}
+
+.nav-link.active {
+  font-family: Familjen Grotesk;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background: var(--waterBg);
+  padding: 5px 15px;
+  color: #000000;
+  border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+  .navConatiner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .nav-link.active {
+    font-size: 17px;
+    line-height: 22px;
+    background: none;
+    padding: 0px;
+  }
+  .navConatiner {
+    min-height: 50px;
+  }
+  .navIconImg > img {
+    width: 40px;
+  }
+
+  .navImg {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .navConatiner {
+    min-height: 50px !important;
+    margin: 0 20px;
+  }
+  .navMain a {
+    font-size: 17px !important;
+    line-height: 20px;
+  }
+}
+@media (max-width: 486px) {
+  .navConatiner {
+    min-height: 45px !important;
+    margin: 0 10px;
+  }
+  .navMain a {
+    font-size: 15px !important;
+    line-height: 18px;
+  }
+}
